@@ -116,9 +116,9 @@ public final class GuildEntry extends HashEntry<GuildEntry.Fields> {
         ANNOUNCEMENT_CHANNEL(new EntryField("announcement_channel", UDefaults.DEFAULT_SNOWFLAKE)),
 
         /**
-         * The announcements period.
+         * The announcements interval.
          */
-        ANNOUNCEMENT_PERIOD(new EntryField("announcement_period", UDefaults.DEFAULT_ANNOUNCEMENT_PERIOD)),
+        ANNOUNCEMENT_INTERVAL(new EntryField("announcement_interval", UDefaults.DEFAULT_ANNOUNCEMENT_INTERVAL)),
 
         /**
          * The last announcement ID.
